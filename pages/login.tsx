@@ -9,7 +9,7 @@ interface Inputs {
   password: string;
 }
 
-export default function login() {
+export default function Login() {
   const [login, setLogin] = useState(false);
   const {signIn, signUp} = useAuth()
   const {
