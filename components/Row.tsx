@@ -3,11 +3,11 @@ import { Movie } from "../typings";
 import { ChevronLeftIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import Thumbnail from "./Thumbnail";
+import { DocumentData } from "firebase/firestore";
 
 interface Props {
   title: string;
-  // movie: Movie[] | DocumentData;
-  movies: Movie[];
+  movies: Movie[] | DocumentData[];
 }
 
 export default function Row({ title, movies }: Props) {
