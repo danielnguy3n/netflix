@@ -52,7 +52,7 @@ export default function Plans({ products }: Props) {
 
       <main className="mx-auto pt-28 max-w-5xl px-5 pb-12 transition-all md:px-10">
         <h1 className="mb-3 text-3xl font-medium">
-          Choose the plan that's right for you
+          Choose the plan that&apos;s right for you
         </h1>
 
         <ul>
