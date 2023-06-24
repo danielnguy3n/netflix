@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import React from "react";
 import useSubscription from "../hooks/useSubscription";
 import useAuth from "../hooks/useAuth";
 import { GetStaticProps } from "next";
